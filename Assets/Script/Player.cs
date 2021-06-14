@@ -8,6 +8,7 @@ public class Player : MonoBehaviour
     [SerializeField] float moveSpeed = 5f;
     [SerializeField] float jumpSpeed = 1f;
     [SerializeField] float jumpTime = 0f;
+    [SerializeField] int playerLives = 3;
     [SerializeField] Vector2 deathKick = new Vector2(5f, 5f);
     Rigidbody2D myRigidBody;
     CapsuleCollider2D myBodyCollider;
@@ -89,6 +90,7 @@ public class Player : MonoBehaviour
             isAlive = false;
             myAnimator.SetTrigger("Die");
             GetComponent<Rigidbody2D>().velocity = deathKick;
+            FindObjectOfType<GameSession>().ProcessPlayerDeath();
         }
     }
 
