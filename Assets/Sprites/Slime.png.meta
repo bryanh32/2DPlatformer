@@ -1,25 +1,16 @@
 fileFormatVersion: 2
-guid: 7897400cb861d1245bc1ec8e0ac34e44
+guid: e78ff538e1716374da756105f464555d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -570807933488141205
-    second: SPA_Enemy_Right_0
+      213: -7282886668606283007
+    second: Slime_0
   - first:
-      213: -7165589731514352205
-    second: SPA_Enemy_Right_1
+      213: 4518187702968751635
+    second: Slime_1
   - first:
-      213: -8322909438818461173
-    second: SPA_Enemy_Right_2
-  - first:
-      213: -6255873791086419314
-    second: SPA_Enemy_Right_3
-  - first:
-      213: 8428840200775804847
-    second: SPA_Enemy_Right_4
-  - first:
-      213: -4694928931602649372
-    second: SPA_Enemy_Right_5
+      213: 7526866347251117655
+    second: Slime_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -85,7 +76,7 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -97,7 +88,7 @@ TextureImporter:
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -109,7 +100,7 @@ TextureImporter:
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -121,13 +112,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SPA_Enemy_Right_0
+      name: Slime_0
       rect:
         serializedVersion: 2
-        x: 11
-        y: 6
-        width: 32
-        height: 32
+        x: 2
+        y: 39
+        width: 28
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -135,20 +126,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b6ce67175351418f0800000000000000
-      internalID: -570807933488141205
+      spriteID: 1036b4a492dfdea90800000000000000
+      internalID: -7282886668606283007
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPA_Enemy_Right_1
+      name: Slime_1
       rect:
         serializedVersion: 2
-        x: 49
-        y: 6
-        width: 32
-        height: 32
+        x: 33
+        y: 39
+        width: 30
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,20 +147,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3bd76e6aa16be8c90800000000000000
-      internalID: -7165589731514352205
+      spriteID: 3169df707c3d3be30800000000000000
+      internalID: 4518187702968751635
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPA_Enemy_Right_2
+      name: Slime_2
       rect:
         serializedVersion: 2
-        x: 87
-        y: 6
+        x: 0
+        y: 7
         width: 32
-        height: 32
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -177,71 +168,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0ada7946f51f7c80800000000000000
-      internalID: -8322909438818461173
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SPA_Enemy_Right_3
-      rect:
-        serializedVersion: 2
-        x: 125
-        y: 6
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e822e9a9eebae29a0800000000000000
-      internalID: -6255873791086419314
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SPA_Enemy_Right_4
-      rect:
-        serializedVersion: 2
-        x: 163
-        y: 6
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fa726c3318149f470800000000000000
-      internalID: 8428840200775804847
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SPA_Enemy_Right_5
-      rect:
-        serializedVersion: 2
-        x: 201
-        y: 6
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4eeae12f20348deb0800000000000000
-      internalID: -4694928931602649372
+      spriteID: 75eaeb3501dc47860800000000000000
+      internalID: 7526866347251117655
       vertices: []
       indices: 
       edges: []
